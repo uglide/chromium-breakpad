@@ -128,7 +128,6 @@
         {
           'target_name': 'dump_syms',
           'type': 'executable',
-          'toolsets': ['host'],
           'include_dirs': [
             'src/common/mac',
           ],
@@ -193,7 +192,6 @@
         {
           'target_name': 'symupload',
           'type': 'executable',
-          'toolsets': ['host'],
           'include_dirs': [
             'src/common/mac',
           ],
